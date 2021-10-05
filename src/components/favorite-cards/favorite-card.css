@@ -1,10 +1,11 @@
-.grid {
+/* specify overall LAYOUT */
+.favorite-cards {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    grid-auto-flow: column;
+    column-gap: 1rem;
 }
 
-/* properties of favorite-card block */
+/* properties of the favorite-card BLOCK */
 .favorite-card {
     border-radius: 20%;
     width: 8.25rem;
@@ -13,33 +14,27 @@
     place-items: center;
 }
 
-/* properties of favorite-card_inner element */
+/* properties of the favorite-card_inner ELEMENT */
 .favorite-card__inner {
     display: grid;
     row-gap: 0.8rem;
     justify-items: center;
 }
 
-/* properties of fruits card */
-.fruits {
+/* properties of the fruits card */
+.favorite-card--fruits {
     background: #FFF2F0;
-}
-.fruits-text {
     color: #4D0A00;
 }
 
-/* properties of vegetables card */
-.vegetables {
+/* properties of the vegetables card */
+.favorite-card--vegetables {
     background:#EFF7EE;
-}
-.vegetables-text {
     color: #1C3418;
 }
 
-/* properties of snacks card */
-.snacks {
+/* properties of the snacks card */
+.favorite-card--snacks {
     background:#FFF8EB;
-}
-.snacks-text {
     color: #4D3200;
 }
