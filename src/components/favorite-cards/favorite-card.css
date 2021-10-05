@@ -4,50 +4,33 @@
     gap: 1rem;
 }
 
+.favorite-card {
+    border-radius: 20%;
+    width: 8.25rem;
+    height: 9rem;
+    display: grid;
+    place-items: center;
+}
+
+.favorite-card__inner {
+    display: grid;
+    row-gap: 0.8rem;
+    justify-items: center;
+}
 
 .fruits {
     background: #FFF2F0;
-    border-radius: 2rem;
-    width: 8rem;
-    height: 9rem;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
-.fruits-image {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: end;
-    justify-self: center;
 }
 
 .fruits-text {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    text-align: center;
     color: #4D0A00;
 }
 
 .vegetables {
-    background:#EFF7EE;;
-    border-radius: 2rem;
-    width: 8rem;
-    height: 9rem;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-}
-
-.vegetables-image {
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: end;
-    justify-self: center;
+    background:#EFF7EE;
 }
 
 .vegetables-text {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    text-align: center;
     color: #1C3418;
 }
 
