@@ -1,0 +1,26 @@
+/* properties of the tabs BLOCK */
+.tabs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* properties of the tabs_tab ELEMENT */
+.tabs__tab{
+    width: 9.75rem;
+    height: 3rem;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.tabs__tab-active {
+    border-radius: 1rem 0% 0% 1rem;
+    background-color: var(--color-secondary);
+    color: #FFFFFF;
+}
+
+.tabs__tab-inactive {
+    border-radius: 0% 1rem 1rem 0%;
+    background-color: #FFF8EE;
+    color: var(--color-secondary);
+}
